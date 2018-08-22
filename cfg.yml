@@ -1,0 +1,14 @@
+trained_checkpoint: './model/'
+num_classes: 5
+trainingset_path: '/notebooks/airbus/data/flower_photos/'
+width: 224
+height: 224
+channels: 3
+num_preprocess_threads: 4
+ratio: 0.8
+batch_size: 8
+train_logdir: '/notebooks/airbus/logs'
+model_save_dir: '/notebooks/airbus/model'
+epochs: 20
+gpu: 1
+LR: 0.0001
